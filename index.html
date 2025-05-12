@@ -3,52 +3,1079 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy Fresh Fruits Online</title>
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="image/logo1.png" type="">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/bsb-btn-size/bsb-btn-size.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/margin/margin.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+
+
+
+
+
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
 </head>
 <body>
-    <nav class="menu" id="nav">
-        <span class="nav-item active">
-            <span class="icon">
-                <i data-feather="home"></i>
-            </span>
-            <a href="#">Home</a>
-        </span>
-        <span class="nav-item">
-            <span class="icon">
-                <i data-feather="search"></i>
-            </span>
-            <a href="#">Search</a>
-        </span>
-        <span class="nav-item">
-            <span class="icon">
-                <span class="subicon">13</span>
-                <i data-feather="bell"></i>
-            </span>
-            <a href="#">Notifications</a>
-        </span>
-        <span class="nav-item">
-            <span class="icon">
-                <i data-feather="star"></i>
-            </span>
-            <a href="#">Favorites</a>
-        </span>
-        <span class="nav-item">
-            <span class="icon">
-                <span class="subicon">1</span>
-                <i data-feather="bell"></i>
-            </span>
-            <a href="#">Your Profile</a>
-        </span>
-    </nav>
-    <script src="script.js"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand " id="Shop" href="#">Fruit Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-info-emphasis"  aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info-emphasis"  href="#">Buy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-info-emphasis" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dashboard
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item"  href="#">Profile</a></li>
+                  <li><a class="dropdown-item"  href="#">Orders</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item"  href="#">About Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-primary-emphasis" aria-disabled="true">Settings</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.firstcry.com/education/2022/11/29120033/Citrus-Fruits-Names-for-Preschoolers-and-Kids.jpg" class="d-block w-100" alt="..." style="height: 500px; object-fit:cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.health.com/thmb/KiyIE7lJinlFp8ppAnaAKxlcHv8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HealthiestFruits-feb2318dc0a3454993007f57c724753f.jpg" class="d-block w-100" alt="..."style="height: 500px; object-fit:cover;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt4a0b5963d4770ead/6618894b4243c0c32a5e4949/Mango.jpg?q=70&width=3840&auto=webp" class="d-block w-100" alt="..." style="height: 500px; object-fit:cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main>
+  <section>
+    <h1 class="text-center" style="margin-top: 28px;">Trending Products</h1>
+    <p class="text-center mt-1 fs-4 text-warning-emphasis">Buy Fresh Fruits</p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p06hk0h6.jpg" class="card-img-top" alt="Go" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Mango</h5>
+              <p class="card-text"> 
+                Juicy, sweet, and bursting with tropical flavor – mangoes are nature’s perfect treat. Packed with vitamins and sunshine in every bite, they’re the ultimate refreshment for summer days.
+                Grab your mango today – pure bliss in every bite! 🥭
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+         
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.prismic.io/oddbox/c3e87e0d-d6aa-4b27-ab93-4b9b67cb57cc_pierpaolo-riondato-s7r4xjKXo0s-unsplash.jpg?auto=compress%2Cformat&fit=max&w=750&h=1050" class="card-img-top" alt="ld" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Apple</h5>
+              <p class="card-text">Crisp, Fresh, and Naturally Sweet – Apple!
+                Bite into goodness with every crunchy, juicy apple. Packed with fiber, vitamins, and refreshing flavor, apples are the perfect snack anytime, anywhere.
+                An apple a day? Yes, please! 🍎
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://media.istockphoto.com/id/172876004/photo/banana-wallpaper.jpg?s=612x612&w=0&k=20&c=DjUIq77Fh3ljde_WJNwYl17e86VxMUpOwYiVL2XJo9U=" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Banana</h5>
+              <p class="card-text">Simple, Soft, and Full of Energy – Banana!
+                Peel, eat, and power up! Bananas are the perfect on-the-go snack, rich in potassium and natural sweetness. Great for breakfast or any time of day.
+                Stay strong with a banana today! 🍌
+                
+                
+              </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReM1yTXfXzM99hov_7cN1x6_JxEmlqyedMPQ&s" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text">Zesty, Juicy, and Full of Vitamin C – Orange!
+                Bursting with citrusy flavor, oranges refresh your body and mind. Perfect as a snack or fresh juice, they keep you glowing and energized.
+                Feel the freshness – enjoy an orange! 🍊</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row" style="margin-top: 32px;">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/grapes_0.jpg.webp?itok=ZiqbgHzZ" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Grape</h5>
+              <p class="card-text">Sweet, Juicy, and Packed with Antioxidants – Grape!
+                Whether red, green, or black, grapes deliver irresistible sweetness in every bite. Great for snacking, juicing, or topping off your treats.
+                 🍇</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/full-frame-shot-of-jackfruits-for-sale-at-market-royalty-free-image-1579270980.jpg" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Jack Fruit</h5>
+              <p class="card-text">Big, Bold, and Amazingly Flavorful – Jackfruit!
+                The largest fruit on earth, jackfruit offers a sweet, tropical taste with a unique texture. Eat it ripe or cook it young – it’s always a delight.
+                Go big, go jackfruit! 🍈</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/fresh-ripe-watermelon-slices-on-wooden-table-royalty-free-image-1684966820.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=1200:*" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Water Melon</h5>
+              <p class="card-text">Cool, Crisp, and Extra Juicy – Watermelon!
+                Nothing beats the refreshing taste of watermelon on a hot day. With every hydrating bite, enjoy the sweet, summery flavor you love.
+                 🍉
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.jesmondfruitbarn.com.au/wp-content/uploads/2016/10/Jesmond-Fruit-Barn-Golden-Circle-Pineapple-407x272.jpg" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Pineapple</h5>
+              <p class="card-text">Tangy, Sweet, and Tropically Delicious – Pineapple!
+                With its bold flavor and juicy bite, pineapple brings a splash of the tropics to your plate. Great fresh, grilled, or blended into smoothies.
+                 🍍
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+          
+        </div>
+      </div>
+    
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <section>
+    <h1 class="text-center" style="margin-top: 28px;">More Products</h1>
+    <p class="text-center mt-1 fs-4 text-warning-emphasis">Buy Fresh Fruits</p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyRIkEgXQ6prN8duYfvZmQB11kyhAwe2S58A&s" class="card-img-top" alt="Go" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry</h5>
+              <p class="card-text"> 
+                Sweet, juicy, and full of charm, strawberries are the taste of joy in every bite. Great for snacking, desserts, or smoothies, they’re a burst of natural happiness.
+Love at first bite – enjoy a strawberry! 🍓
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+         
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShSRWomF_yIuPkQ8NMO97yK0dcwUepyWE9A&s" class="card-img-top" alt="ld" style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Chikoo (Sapodilla)</h5>
+              <p class="card-text">Soft, grainy, and caramel-sweet, chikoo is comfort wrapped in a brown skin. It’s a nourishing, energy-rich fruit loved across generations.
+                Naturally sweet – taste the magic of chikoo! 🍂
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.megawecare.com/Featured-Images/G4vDIrwfeCNSMGQC6XUG26dRbmIirn5dvZuoELpz.webp" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Papaya</h5>
+              <p class="card-text">Gentle on your stomach and rich in nutrients, papayas support your health and glow. Their soft sweetness makes every bite a tropical treat.
+                Feel good from the inside – eat papaya! 🍈
+                
+                
+              </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1541344999736-83eca272f6fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Pomegranate</h5>
+              <p class="card-text">Each ruby-red seed is a tiny treasure packed with flavor and antioxidants. Fresh or juiced, pomegranates fuel you with power.
+                Crack it open – unleash the power of pomegranate! 🍎
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row" style="margin-top: 32px;">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1689996647327-5d263fbbc79d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEd1YXZhfGVufDB8fDB8fHww" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Guava</h5>
+              <p class="card-text">Crunchy, fragrant, and filled with Vitamin C, guavas bring bold flavor and tropical vibes to your snack time.
+                Stay strong – bite into a guava! 🌿</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1521123036037-6725d75de336?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEx5Y2hlZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Lychee</h5>
+              <p class="card-text">Delicate, juicy, and floral-sweet, lychees are a summer favorite that cool and delight with every bite.
+                Pure refreshment – indulge in lychee! 🌸</p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1631160299919-6a175aa6d189?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFBlYXJ8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Pear</h5>
+              <p class="card-text">Smooth, mellow, and hydrating, pears are the perfect balance of gentle sweetness and soft crunch.
+                Simple, sweet, satisfying – pick a pear! 🍐
+                
+                
+                
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1635843110565-cb35d1c03d86?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Dragon Fruit</h5>
+              <p class="card-text">Exotic, vibrant, and mildly sweet, dragon fruit is a feast for the eyes and a boost for your body. Crunchy seeds and smooth texture make every bite unique.
+                 🌺
+                </p>
+              <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+          </div>
+        </div>
+          
+        </div>
+      </div>
+    
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">OUR TEAM</h5>
+        <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://png.pngtree.com/png-clipart/20231006/ourmid/pngtree-handsome-businessman-transparent-background-png-image_10194933.png" alt="card image"></p>
+                                    <h4 class="card-title">CEO</h4>
+                                    <p class="card-text">I started this to make fresh, high-quality fruits accessible to everyone – directly from the farm to your home.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">CEO</h4>
+                                    <p class="card-text">Ayesha is the visionary who planted the first seed of this company. What began as a passion for healthy living and farm-fresh produce grew into a mission to connect people directly with quality fruits – without the middlemen. She leads the team with dedication, ensuring we stay true to our values of freshness, trust, and convenience.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://static.vecteezy.com/system/resources/previews/024/558/280/non_2x/businessman-isolated-illustration-ai-generative-free-png.png" alt="card image"></p>
+                                    <h4 class="card-title">Product Manager</h4>
+                                    <p class="card-text">I handpick our suppliers and check every batch – because you deserve nothing less than the juiciest fruits.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Product Manager</h4>
+                                    <p class="card-text">Kamal is the backbone of our fruit supply. With deep relationships among farmers and suppliers, he makes sure that every fruit we offer is fresh, seasonal, and ethically sourced. He monitors stock levels, checks product quality, and ensures we never run out of your favorites.
+                                        Dialogue:</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEYvPpOAWYbS_sH8muuXRoR8m4qlPqfVGY-Q&s" alt="card image"></p>
+                                    <h4 class="card-title">IT Manager</h4>
+                                    <p class="card-text">If the site works fast and securely, you can thank me. And if it doesn’t – I’m already fixing it!</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">IT Manager</h4>
+                                    <p class="card-text">Sanjana is our digital problem-solver. She built and maintains our website, ensuring it’s fast, secure, and smooth for everyone who visits. Whether it’s fixing a bug, improving performance, or integrating new features, she makes sure your online shopping journey is seamless from start to checkout.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/024/354/252/small/businessman-isolated-illustration-ai-generative-free-photo.jpg" alt="card image"></p>
+                                    <h4 class="card-title">UI Designer</h4>
+                                    <p class="card-text">I design the site so it looks good and feels even better – on every screen.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">UI Designer</h4>
+                                    <p class="card-text">Rafi designs the look and feel of our website to make your shopping experience delightful and intuitive. He focuses on visual appeal, easy navigation, and making sure everything works just as beautifully on a phone as on a desktop. Every button, color, and layout is part of his thoughtful design.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://png.pngtree.com/png-vector/20240108/ourmid/pngtree-realistic-happy-corporate-business-professional-one-man-clipart-white-background-png-image_11428268.png" alt="card image"></p>
+                                    <h4 class="card-title">Delivery Coordinator</h4>
+                                    <p class="card-text">Whether it’s a delivery question or fruit suggestion – I’m here for you!</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Delivery Coordinator</h4>
+                                    <p class="card-text">Hasan is the friendly face (or voice) behind every customer question. Whether it’s helping track an order, suggesting a fruit, or solving an issue, he’s always ready with a polite reply and a quick solution. His goal? Making sure every customer feels heard and helped.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="https://png.pngtree.com/png-vector/20241101/ourmid/pngtree-professional-man-standing-confidently-png-image_14220754.png" alt="card image"></p>
+                                    <h4 class="card-title">Finance Manager</h4>
+                                    <p class="card-text">I’m the one who makes sure the business stays healthy – so we can keep delivering to you.</p>
+                                    <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Finance Manager</h4>
+                                    <p class="card-text">Zahin keeps the business running behind the scenes. From managing supplier payments and handling customer refunds to overseeing sales reports and keeping track of costs, he ensures the numbers stay healthy. His work supports every fruit you receive.</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-skype"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+  
+        </div>
+    </div>
+  </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="newsletter-subscribe">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Subscribe for our Newsletter</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group"><button class="btn btn-primary padb" type="submit">Subscribe </button></div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- About 8 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="mb-4 display-5 text-center">Why Choose Us?</h2>
+        <p class="text-secondary mb-5 text-center lead fs-4">We pride ourselves on offering the freshest, highest-quality fruits and personalized service to meet the needs of every customer.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6">
+        <img class="img-fluid rounded border border-dark" loading="lazy" src="https://www.fruit4london.co.uk/cdn/shop/articles/office_fruit_delivery_in_london_0e8d003d-f887-4dfc-88cb-43acc2ec1879_1024x1024.jpg?v=1737986476" alt="About Us">
+      </div>
+      <div class="col-12 col-lg-6 col-xxl-6">
+        <div class="row justify-content-lg-end justify-content-xxl-around">
+          <div class="col-12 col-lg-11 col-xxl-10">
+            <div class="card border-0 mb-4">
+              <div class="card-body p-0">
+                <h4 class="card-title mb-3">Our Services</h4>
+                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Fruit Basket Customization</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Seasonal Fruit Selection</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Fresh Juice Preparation</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Fruit Cutting & Packaging</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Exotic Fruit Sourcing</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Home & Event Delivery</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card border-0 mb-4 mb-xxl-5">
+              <div class="card-body p-0">
+                <h4 class="card-title mb-3">Accessory Installation</h4>
+                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Gift Wrapping</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Corporate Orders & Bulk Supply</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Reusable Fruit Crates</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Decorative Basket Options</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <a href="#!" class="btn btn-primary bsb-btn-2xl">
+              Explore
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-dark"
+          style="background-color: #ECEFF1"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4 text-white"
+             style="background-color: #21D192 !important"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Fruit Shop</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              We pride ourselves on offering the freshest, highest-quality fruits and personalized service to meet the needs of every customer.
+
+
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-dark">Trending Fruits</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Seasonal Fruits</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Accessories</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Others</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-dark">Contact</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Join Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2025 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/"
+         >Fruit Shop</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
 </body>
 </html>
-<div class="pic-ctn">
-    <img src="https://res.cloudinary.com/freshketimage001/image/upload/c_fit,w_800,h_800,q_auto,f_auto/uw25zs7r5pgxzsgizxmu" alt="" class="pic">
-    <img src="" alt="" class="pic">
-    <img src="https://tse2.mm.bing.net/th?id=OIP.YCzXOumXnLQD_U7U-Ct2vgHaHa&w=474&h=474&c=7" alt="" class="pic">
-    <img src="https://freepngimg.com/thumb/mango/1-2-mango-png-thumb.png" alt="" class="pic">
-    <img src="https://freepngimg.com/thumb/fruit/66104-food-fresh-fruit-apple-apples-hd-image-free-png-thumb.png" alt="" class="pic">
-  </div>
