@@ -3,9 +3,13 @@ section {
     background: #eee !important;
 }
 
+button{
+    background-color: #007b5e;
+}
+
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #108d6f;
+    background-color: #2ba589 !important;
     border-color: #108d6f;
     box-shadow: none;
     outline: none;
@@ -13,7 +17,7 @@ section {
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
+    background-color: #039472 !important;
     border-color: #007b5e;
 }
 
@@ -189,7 +193,7 @@ section .section-title {
   }
   
   .newsletter-subscribe form .form-control {
-    background:#eff1f4;
+    background:#e6e6e6;
     border:none;
     border-radius:3px;
     box-shadow:none;
@@ -224,7 +228,7 @@ section .section-title {
   }
   
   .newsletter-subscribe form .btn-primary {
-    background-color:#055ada !important;
+    background-color:#007b5e !important;
     color:#fff;
     outline:none !important;
   }
